@@ -3,7 +3,6 @@ const RequestHelper = function (url) {
 }
 
 RequestHelper.prototype.get = function () {
-  // TODO: Make request to API
   return fetch(this.url)
     .then((response) => {
       return response.json();

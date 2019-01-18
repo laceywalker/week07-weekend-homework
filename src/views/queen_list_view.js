@@ -9,7 +9,7 @@ QueenListView.prototype.bindEvents = function () {
   PubSub.subscribe('Queens:data-ready', (event) => {
     console.log(event);
     this.queens = event.detail;
-    this.render;
+    this.render();
   })
 };
 
