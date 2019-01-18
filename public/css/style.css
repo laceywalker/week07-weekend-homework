@@ -1,3 +1,9 @@
 body {
-  background-color: purple;
+background-color: purple;
+font-family: impact;
 };
+
+
+img {
+  width: 100px;
+}

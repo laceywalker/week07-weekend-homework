@@ -11,6 +11,14 @@ QueenView.prototype.render = function () {
   const queenQuote = document.createElement('li');
   queenQuote.textContent = this.queen.quote;
   this.container.appendChild(queenQuote);
+
+  const queenButton = document.createElement('button');
+  queenButton.textContent
+  // const queenPhoto = document.createElement('img');
+  // console.log(queenPhoto);
+  // queenPhoto.src = this.queen.image_url;
+  // this.container.appendChild(queenPhoto);
+
 };
 
 
